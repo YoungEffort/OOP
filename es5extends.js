@@ -1,7 +1,7 @@
 // es5实现抽象类继承：1、定义抽象父类 2、定义抽象子类（子类构造函数和原型对象分别继承父类）---核心是this的指向，最终抽象子类的this都指向子类
 function Flyer(sname, age) {
     this.sname = sname;
-    this.age = age
+    this.age = age;
 };
 Flyer.prototype = {
     fly: function (name) {
